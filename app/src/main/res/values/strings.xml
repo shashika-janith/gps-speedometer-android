@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Speedometer</string>
+    <string name="warning_alert_title">Uh oh!</string>
+    <string name="location_off_warning">Please turn the device location on in settings to keep using the app.</string>
+    <string name="ok">Ok</string>
+    <string name="speed_accuracy">Speed Accuracy (KM/H)</string>
+    <string name="altitude">Altitude</string>
+    <string name="accuracy_meters">Accuracy (m)</string>
+</resources>

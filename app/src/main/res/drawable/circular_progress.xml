@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:thickness="30dp"
+            android:useLevel="false">
+            <gradient android:gradientRadius="84%" android:type="radial" android:startColor="@color/wedgeWood" android:centerColor="@color/bigStone" android:endColor="@color/wedgeWood" />
+        </shape>
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="90"
+            android:toDegrees="90">
+        <shape android:shape="ring"
+            android:thickness="30dp"
+            android:useLevel="true">
+            <gradient android:gradientRadius="74%" android:type="radial" android:startColor="@color/teal_200" android:centerColor="@color/teal_700" android:endColor="@color/teal_200" />
+        </shape>
+        </rotate>
+    </item>
+</layer-list>
